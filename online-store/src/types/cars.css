@@ -1,0 +1,41 @@
+.m5 {
+    background: url('../assets/m5.webp');
+}
+.m8 {
+    background: url('../assets/m8.webp');
+}
+.x4m {
+    background: url('../assets/x4m.webp');
+}
+.x6 {
+    background: url('../assets/x6.webp');
+}
+.x7 {
+    background: url('../assets/x7.webp');
+}
+.s5 {
+    background: url('../assets/5series.webp');
+}
+.s8 {
+    background: url('../assets/8series.webp');
+}
+.i4 {
+    background: url('../assets/i4.webp');
+}
+.i7 {
+    background: url('../assets/i7.webp');
+}
+.ix {
+    background: url('../assets/ix.webp');
+}
+.x5m {
+    background: url('../assets/x5m.webp');
+}
+.z4 {
+    background: url('../assets/z4.webp');
+}
+
+.card-img {
+    background-color: white;
+    background-size: 420px 220px;
+}

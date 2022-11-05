@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+        <link
+            rel="shortcut icon"
+            href="https://www.bmw.com/etc.clientlibs/settings/wcm/designs/bmwcom/base/resources/ci2020/img/favicon.png"
+            type="image/x-icon"
+        />
+        <title>Cars Store</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h2>Cars Store</h2>
+                <div class="cart-block">
+                    <p class="cart-count">0</p>
+                    <img src="https://cdn-icons-png.flaticon.com/512/891/891462.png" class="cart-img" />
+                </div>
+            </header>
+            <main>
+                <div class="filters">
+                    <div class="filters-by-value">
+                        <div class="type-filters">
+                            <h3>Type:</h3>
+                            <label for="suv-type">&nbsp;SUV</label>
+                            <input type="checkbox" name="car-type" id="suv-type" value="SUV" class="styled-checkbox" />
+                            <label for="sedan-type">&nbsp;Sedan</label>
+                            <input
+                                type="checkbox"
+                                name="car-type"
+                                id="sedan-type"
+                                value="Sedan"
+                                class="styled-checkbox"
+                            />
+                            <label for="electro-type">&nbsp;Electric-Car</label>
+                            <input
+                                type="checkbox"
+                                name="car-type"
+                                id="electro-type"
+                                value="Electric-Car"
+                                class="styled-checkbox"
+                            />
+                        </div>
+                        <div class="color-filters">
+                            <h3>Color:</h3>
+                            &nbsp;
+                            <input type="checkbox" value="Red" name="car-color" class="styled-checkbox color c-red" />
+                            <input type="checkbox" value="Blue" name="car-color" class="styled-checkbox color c-blue" />
+                            <input
+                                type="checkbox"
+                                value="White"
+                                name="car-color"
+                                class="styled-checkbox color c-white"
+                            />
+                            <input
+                                type="checkbox"
+                                value="Black"
+                                name="car-color"
+                                class="styled-checkbox color c-black"
+                            />
+                            <input type="checkbox" value="Gray" name="car-color" class="styled-checkbox color c-gray" />
+                            <input
+                                type="checkbox"
+                                value="Yellow"
+                                name="car-color"
+                                class="styled-checkbox color c-yellow"
+                            />
+                        </div>
+                        <div class="popularity-filter">
+                            <h3>Popularity:</h3>
+                            &nbsp;
+                            <input
+                                type="checkbox"
+                                name="car-popular"
+                                class="popular-btn styled-checkbox"
+                                id="popular-btn"
+                            />
+                        </div>
+                        <div class="search-filter">
+                            <h3>Search:</h3>
+                            <input type="search" placeholder="Enter Text" class="search" autofocus autocomplete="off">
+                        </div>
+                        <div class="sort-filter">
+                            <h3>Sort:</h3>
+                            <select class="sort">
+                                <option value="sortNameAZ">Sort by Name, A to Z</option>
+                                <option value="sortNameZA">Sort by Name, Z to A</option>
+                                <option value="sortPriceIncr">Sort by increasing Price</option>
+                                <option value="sortPriceDecr">Sort by decreasing Price</option>
+                                <option value="sortQuantityIncr">Sort by increasing Quantity</option>
+                                <option value="sortQuantityDecr">Sort by decreasing Quantity</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="range-filters">
+                        <div class="quantity-filters">
+                            <h3>Quantity:</h3>
+                            &nbsp;
+                            <div id="quantity-slider"></div>
+                        </div>
+                        <div class="price-filters">
+                            <h3>Car Price:</h3>
+                            &nbsp;
+                            <div id="price-slider"></div>
+                        </div>
+                        <div class="reset-buttons">
+                            <button class="reset-btn reset-filters">Reset Filters</button>
+                            <button class="reset-btn reset-page">Reset Settings</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-block"></div>
+            </main>
+            <footer>
+                <a href="https://github.com/shahzod222"
+                    ><img
+                        class="github-icon"
+                        src="https://cdn-icons-png.flaticon.com/512/25/25657.png"
+                        alt="Github icon"
+                /></a>
+                <p>©2022</p>
+                <a href="https://rs.school/js/"
+                    ><img class="rs-icon" src="https://rs.school/images/rs_school_js.svg" alt="RS"
+                /></a>
+            </footer>
+        </div>
+    </body>
+</html>

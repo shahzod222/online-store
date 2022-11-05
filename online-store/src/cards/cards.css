@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Slab&family=Cabin:wght@500&display=swap');
+
+.cards-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 420px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+        rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: #edf1ff;
+}
+
+.card-img {
+    width: 100%;
+    min-height: 220px;
+}
+
+.card-desc {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.card-title {
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 0 0 0;
+    text-align: center;
+    color: #363945;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card-list-item {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #363945;
+    margin: 3px 0;
+}
+
+.logo {
+    width: 17px;
+    height: 17px;
+    background: url('../assets/logo.png');
+    background-size: 17px 17px;
+    border-radius: 50%;
+}
+
+.add-to-cart {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    color: #edf1ff;
+    background-color: #0072b5;
+    font-size: 15px;
+    font-family: 'Cabin', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 10px 0 3px 0;
+    cursor: pointer;
+}
+
+.active-btn {
+    background-color: #88b04b;
+}

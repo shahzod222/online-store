@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Ubuntu:wght@700&display=swap');
+
+.filters-by-value,
+.range-filters {
+    width: 380px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    padding: 5px;
+    background-color: #d9eee1;
+}
+
+.filters h3 {
+    margin: 0 10px 0 0;
+    font-weight: 400;
+}
+
+.range-filters h3 {
+    margin: 0 15px 0 0;
+}
+
+.popularity-filter,
+.type-filters,
+.sort-filter,
+.search-filter,
+.color-filters,
+.quantity-filters,
+.price-filters {
+    display: flex;
+    align-items: center;
+}
+
+.sort {
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    background: #98b4d4;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.search {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    outline: none;
+}
+
+.styled-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    align-items: center;
+    outline: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.styled-checkbox:checked {
+    background-color: #88b04b;
+}
+.styled-checkbox:after {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f00c';
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0 0 3px black;
+    display: none;
+}
+.styled-checkbox:checked:after {
+    display: block;
+}
+
+.type-filters label {
+    cursor: pointer;
+}
+
+.c-red,
+.c-red:checked {
+    background-color: #dd4124;
+}
+.c-blue,
+.c-blue:checked {
+    background-color: #34568b;
+}
+.c-white,
+.c-white:checked {
+    background-color: white;
+}
+.c-yellow,
+.c-yellow:checked {
+    background-color: #f5df4d;
+}
+.c-black,
+.c-black:checked {
+    background-color: #363945;
+}
+.c-gray,
+.c-gray:checked {
+    background-color: #939597;
+}
+
+#quantity-slider,
+#price-slider {
+    width: 250px;
+    font-size: 20px;
+}
+
+.reset-btn {
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #88b04b;
+    cursor: pointer;
+}
+
+.reset-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.no-items {
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-family: 'Ubuntu', sans-serif;
+}
